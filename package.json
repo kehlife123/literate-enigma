@@ -4,9 +4,9 @@
   "description": "Owner-only Discord NSFW content moderation bot with a Components V2 control panel. JSON-file storage, no database required.",
   "main": "server.js",
   "type": "commonjs",
-  "engines": {
-    "node": ">=18.17.0"
-  },
+"engines": {
+  "node": "22.x"
+}
   "scripts": {
     "start": "node server.js",
     "check": "node --check server.js"
