@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "logChannelId": "1551767564839821442",
+  "deleteOnFlag": true,
+  "threshold": 0.6,
+  "sensitivityLabel": "High",
+  "gifSampleFrames": 4,
+  "ladder": [
+    {
+      "strikes": 1,
+      "action": "kick"
+    }
+  ],
+  "ignoredChannelIds": [],
+  "ignoredRoleIds": []
+}

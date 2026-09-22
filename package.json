@@ -1,0 +1,24 @@
+{
+  "name": "sentinel-bot",
+  "version": "1.0.0",
+  "description": "Owner-only Discord NSFW content moderation bot with a Components V2 control panel. JSON-file storage, no database required.",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "4.22.0",
+    "discord.js": "14.27.0",
+    "dotenv": "18.0.2",
+    "express": "5.2.1",
+    "nsfwjs": "4.4.0",
+    "sharp": "0.35.4"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
